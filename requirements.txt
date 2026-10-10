@@ -1,0 +1,7 @@
+streamlit==1.56.0
+pandas==3.0.2
+numpy==2.2.2
+openai==2.30.0
+scikit-learn==1.7.2
+folium==0.20.0
+tzdata==2025.1
