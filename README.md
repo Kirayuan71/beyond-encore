@@ -2,7 +2,7 @@
 
 ## Updated interface and map
 
-The interface uses a cream, dusty rose and mist blue palette, glass cards and the supplied logo. Category and itinerary cards include locally bundled illustrative AI images; these are not photographs of the named POIs. Chinese/English switching preserves input and generated plans.
+The interface uses a cream, dusty rose and mist blue palette, glass cards and the supplied logo. Category and itinerary cards include locally bundled illustrative images; these are not photographs of the named POIs. Chinese/English switching preserves input and generated plans.
 
 The route map uses Hong Kong Lands Department's public WGS84 XYZ basemap, with the required logo and attribution. Leaflet JavaScript and CSS are bundled locally, avoiding browser CDN dependencies. A street tile was successfully retrieved and visually inspected on the current network. Actual availability varies by visitor network; failed tile loads show a notice while markers remain visible. POI links open Amap search by name in Hong Kong. No Amap developer key is needed for these search links. Route connections and timeline distances are straight-line distances, not walking directions. Browser automation was unavailable, so full browser and mobile visual verification remains outstanding.
 
