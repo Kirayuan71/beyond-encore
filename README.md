@@ -45,21 +45,6 @@ For another compatible provider, use that provider's key and base URL. The servi
 
 AI requests use the configured API account's quota, including requests made by other visitors. Do not commit real credentials, `.env` or `.streamlit/secrets.toml` to the repository.
 
-## Deploy
-
-Upload the project contents to the root of a GitHub repository, connect it to Streamlit Community Cloud, and select `app.py` as the entry point with Python **3.13**. Configure API settings through the platform's Secrets settings if music matching is needed.
-
-For step-by-step instructions in Chinese, see [部署说明](DEPLOY.zh-CN.md).
-
-A Dockerfile is included for servers that support WebSocket connections:
-
-```sh
- docker build -t beyond-encore .
- docker run -p 8501:8501 --env-file .env beyond-encore
-```
-
-Configure HTTPS through your hosting platform or reverse proxy. The health endpoint is `/_stcore/health`.
-
 ## Data and recommendation notes
 
 - POIs are stored in `data/poi.sqlite3`; precomputed vectors are stored in `data/poi_embeddings.npz`. Update both together when changing POI data.
