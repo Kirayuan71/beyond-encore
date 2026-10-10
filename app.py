@@ -354,7 +354,7 @@ def tr_html(text):
 st.markdown(f'<div class="brand-header"><img src="{uri("beyond-encore-logo.png")}" alt="Beyond Encore logo"><div><strong>Beyond Encore</strong><span>{"音乐之后，探索继续" if ZH else "More to explore, after the music"}</span></div></div>', unsafe_allow_html=True)
 st.markdown(tr_html("""<style>
 .stApp {background:#0e1220;color:#f4f2ed}
-.block-container {max-width:1320px;padding-top:2rem;padding-bottom:3rem}
+.block-container {max-width:1320px;padding-top:6rem;padding-bottom:3rem}
 [data-testid="stSidebar"] {background:#171c2c;border-right:1px solid #30364a}
 h1,h2,h3 {letter-spacing:-.035em}
 .hero {padding:44px 40px;border:1px solid #41445e;border-radius:24px;background:radial-gradient(ellipse at 95% 0%,#474270,transparent 60%),linear-gradient(120deg,#20263d,#14192a);margin-bottom:26px}
