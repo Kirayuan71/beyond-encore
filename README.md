@@ -1,6 +1,7 @@
 # Beyond Encore
 
 Beyond Encore helps concertgoers turn a live show into a fuller Hong Kong experience. Enter an artist or concert name, choose a venue, and discover nearby places to eat, relax, shop and explore. With personalised trip themes, budget and opening-hour filters, and optional AI music matching, the app helps you plan activities around your concert and save a suggested itinerary for your visit.
+link：https://beyond-encore.streamlit.app/
 
 ## Features
 
